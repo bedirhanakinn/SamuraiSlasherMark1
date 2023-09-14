@@ -6,7 +6,7 @@ public class CollisionController : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     { 
-        if (collision.gameObject.CompareTag("box"))
+        if (collision.gameObject.CompareTag("BlueNinja"))
         {
             Debug.Log("Enter");
         }
@@ -15,7 +15,7 @@ public class CollisionController : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     { 
-        if (collision.gameObject.CompareTag("box"))
+        if (collision.gameObject.CompareTag("BlueNinja"))
         {
             Debug.Log("Stay");
         }
@@ -24,7 +24,7 @@ public class CollisionController : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     { 
-        if (collision.gameObject.name == "box")
+        if (collision.gameObject.name == "BlueNinja")
         {
             Debug.Log("Exit");
         }

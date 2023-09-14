@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 1752603882}
   - component: {fileID: 1752603884}
   m_Layer: 0
-  m_Name: Samurai
+  m_Name: SamuraiMiddle
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,12 +336,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3763752930381237044, guid: 47cfacb0bc511454bba603b323b27a4f, type: 3}
+  m_Sprite: {fileID: -3161485955524117438, guid: 8ae2ebfe2d6a7fb43ba6bfd7f74dc880, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.04, y: 1.19}
+  m_Size: {x: 1.02, y: 1.19}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -381,17 +381,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.1729724, y: -0.06573498}
+  m_Offset: {x: 1.2405934, y: -0.06573498}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.04, y: 1.19}
-    newSize: {x: 1.04, y: 1.19}
+    oldSize: {x: 1.02, y: 1.19}
+    newSize: {x: 1.02, y: 1.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.0270996, y: 0.3865729}
+  m_Size: {x: 2.1623416, y: 0.3865729}
   m_EdgeRadius: 0
 --- !u!50 &1752603883
 Rigidbody2D:
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1752603877}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2bb7705670b7234a961052c115b36a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 88d3211693ce8084f8b7fcee9815fb3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
